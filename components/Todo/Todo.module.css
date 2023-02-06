@@ -1,0 +1,35 @@
+.todoAndButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin: 0 10px;
+}
+
+.todo {
+  border: 1px solid black;
+  border-radius: 3px;
+
+  margin: 10px;
+  padding: 10px;
+
+  min-height: 30px;
+  width: 90%;
+
+  overflow: hidden;
+  word-break: break-all;
+}
+
+.inProcess {
+  background-color: white;
+}
+
+.processIsOver {
+  background-color: rgb(195, 191, 191);
+  color: rgb(112, 111, 111);
+}
+
+.checkbox {
+  width: 24px;
+  height: 24px;
+}

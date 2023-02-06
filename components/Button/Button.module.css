@@ -1,0 +1,43 @@
+.button {
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+.xS {
+  height: 25px;
+  width: 25px;
+
+  border: none;
+}
+
+.s {
+  height: 40px;
+  width: 40px;
+}
+
+.m {
+  height: 30px;
+  minwidth: 100px;
+}
+
+.blue {
+  background-color: rgb(91, 91, 248);
+  color: white;
+}
+.blue:hover {
+  background-color: rgb(112, 112, 244);
+}
+.blue:active {
+  background-color: rgb(148, 148, 248);
+}
+
+.lightBlue {
+  background-color: rgb(171, 171, 248);
+  color: white;
+}
+.lightBlue:hover {
+  background-color: rgb(211, 211, 246);
+}
+.lightBlue:active {
+  background-color: rgb(228, 228, 247);
+}

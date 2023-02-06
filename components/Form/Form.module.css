@@ -1,0 +1,13 @@
+.mainBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input {
+  min-height: 40px;
+  border: 1.5px solid black;
+  border-radius: 5px;
+
+  padding: 10px;
+}
